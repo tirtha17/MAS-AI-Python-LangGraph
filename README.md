@@ -1,6 +1,6 @@
 This notebook implements a **Multi-Agent System (MAS)** using **LangGraph** to automate the classification and clinical analysis of Diabetic Retinopathy (DR) from retinal fundus images.
 
-The system follows a modular, stateful architecture where specialized agents handle everything from GCS data ingestion to generating final clinical summaries using Gemini 2.5.
+The system follows a modular, stateful architecture where specialized agents handle everything from GCS data ingestion to generating final clinical summaries using Gemini 3.5 flash.
 
 ---
 
