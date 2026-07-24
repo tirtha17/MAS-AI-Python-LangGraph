@@ -11,9 +11,9 @@ This project leverages **Google Gemini Vision** and **LangGraph** to process lar
 
 ### ### Key Features
 * **Stateful Orchestration:** Uses `LangGraph` to manage the flow between 6 specialized agents.
-* **Vision-Language Integration:** Employs `gemini-2.5-flash` for high-speed image classification.
+* **Vision-Language Integration:** Employs `gemini-3.5-flash` for high-speed image classification.
 * **Automated Evaluation:** Generates confusion matrices and classification reports (Accuracy, F1, Precision, Recall) automatically.
-* **Clinical Summary:** A final "Output Agent" (`gemini-2.5-pro`) interprets the raw metrics into flowing clinical prose.
+* **Clinical Summary:** A final "Output Agent" (`gemini-3.5-pro`) interprets the raw metrics into flowing clinical prose.
 
 ---
 
